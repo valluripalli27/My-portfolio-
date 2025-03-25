@@ -132,13 +132,24 @@
     </header>
 
     <!-- Home Section -->
-    <section id="home" style="background: url('background.jpg') no-repeat center center/cover; color: white; padding: 150px 0; width: 100vw; height: auto;">
-        <div class="intro" style="text-align: center;">
-            <h1>Hello, I'm Valluripalli Lakshmi Prasanna</h1>
-            <p>Full-Stack Java Developer with a passion for building scalable, high-performance, and user-friendly web applications.</p>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
-    </section>
+<section id="home" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 100px 0;">
+
+    <!-- Circular Profile Image -->
+    <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; border: 4px solid #ff9800; display: flex; justify-content: center; align-items: center;">
+        <img src="your-photo.jpg" alt="Your Photo" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+
+    <!-- Name and Wave Emoji -->
+    <h1 style="margin-top: 15px; font-size: 28px; font-weight: bold;">
+        Hello, I'm Valluripalli Lakshmi Prasanna <span style="font-size: 32px;">👋</span>
+    </h1>
+
+    <p style="max-width: 600px; margin: 10px auto;">Full-Stack Java Developer with a passion for building scalable, high-performance, and user-friendly web applications.</p>
+
+    <a href="#projects" class="btn" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background: #ff9800; color: white; text-decoration: none; border-radius: 5px;">View My Work</a>
+
+</section>
+
 
     <!-- About Section -->
     <section id="about" style="background: url('pic.jpg') no-repeat center center/cover; color: white; padding: 50px 20px; width: 100%; min-height: 50vh;">
