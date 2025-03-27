@@ -261,12 +261,18 @@
             margin-left: 20px;
             font-size: 18px;
         }
-    
-        label {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 15px 0;
+       /* Label style */
+label {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    display: block; /* Ensures labels appear on separate lines */
         }
+
+/* Optional: Add spacing between labels */
+label + input {
+    margin-top: 15px;
+}
     </style>
     
 
